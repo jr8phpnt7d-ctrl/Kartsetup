@@ -4,10 +4,7 @@
   "installCommand": "npm install && cd client && npm install",
   "framework": "react",
   "outputDirectory": "client/build",
-  "env": [
-    {
-      "key": "NODE_ENV",
-      "value": "production"
-    }
-  ]
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
